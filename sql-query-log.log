@@ -1,0 +1,1709 @@
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT buyer.id AS buyer_id, buyer.nick AS buyer_nick, buyer.email AS buyer_email 
+FROM buyer) AS anon_1
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT category.id AS category_id, category.name AS category_name, category.description AS category_description 
+FROM category) AS anon_1
+()
+SELECT category.id AS category_id, category.name AS category_name, category.description AS category_description 
+FROM category
+()
+SELECT count(*) AS count_1 
+FROM (SELECT buyer.id AS buyer_id, buyer.nick AS buyer_nick, buyer.email AS buyer_email 
+FROM buyer) AS anon_1
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT category.id AS category_id, category.name AS category_name, category.description AS category_description 
+FROM category) AS anon_1
+()
+SELECT category.id AS category_id, category.name AS category_name, category.description AS category_description 
+FROM category
+()
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name 
+FROM manufacturer
+()
+SELECT count(*) AS count_1 
+FROM (SELECT buyer.id AS buyer_id, buyer.nick AS buyer_nick, buyer.email AS buyer_email 
+FROM buyer) AS anon_1
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT buyer.id AS buyer_id, buyer.name AS buyer_name, buyer.email AS buyer_email 
+FROM buyer) AS anon_1
+()
+SELECT buyer.id AS buyer_id, buyer.name AS buyer_name, buyer.email AS buyer_email 
+FROM buyer
+()
+SELECT count(*) AS count_1 
+FROM (SELECT category.id AS category_id, category.name AS category_name, category.description AS category_description 
+FROM category) AS anon_1
+()
+SELECT category.id AS category_id, category.name AS category_name, category.description AS category_description 
+FROM category
+()
+SELECT count(*) AS count_1 
+FROM (SELECT item.id AS item_id, item.id_category AS item_id_category, item.id_manufacturer AS item_id_manufacturer, item.name AS item_name, item.description AS item_description, item.price AS item_price, item.count AS item_count 
+FROM item) AS anon_1
+()
+SELECT item.id AS item_id, item.id_category AS item_id_category, item.id_manufacturer AS item_id_manufacturer, item.name AS item_name, item.description AS item_description, item.price AS item_price, item.count AS item_count 
+FROM item
+()
+SELECT count(*) AS count_1 
+FROM (SELECT "order".id AS order_id, "order".id_item AS order_id_item, "order".id_buyer AS order_id_buyer 
+FROM "order") AS anon_1
+()
+SELECT "order".id AS order_id, "order".id_item AS order_id_item, "order".id_buyer AS order_id_buyer 
+FROM "order"
+()
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name 
+FROM manufacturer
+()
+SELECT count(*) AS count_1 
+FROM (SELECT "order".id AS order_id, "order".id_item AS order_id_item, "order".id_buyer AS order_id_buyer 
+FROM "order") AS anon_1
+()
+SELECT "order".id AS order_id, "order".id_item AS order_id_item, "order".id_buyer AS order_id_buyer 
+FROM "order"
+()
+INSERT INTO buyer (id, name, email) VALUES (?, ?, ?)
+('4', 'masha', '11')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT buyer.id AS buyer_id, buyer.name AS buyer_name, buyer.email AS buyer_email 
+FROM buyer) AS anon_1
+()
+SELECT buyer.id AS buyer_id, buyer.name AS buyer_name, buyer.email AS buyer_email 
+FROM buyer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT category.id AS category_id, category.name AS category_name, category.description AS category_description 
+FROM category) AS anon_1
+()
+SELECT category.id AS category_id, category.name AS category_name, category.description AS category_description 
+FROM category
+()
+SELECT count(*) AS count_1 
+FROM (SELECT buyer.id AS buyer_id, buyer.name AS buyer_name, buyer.email AS buyer_email 
+FROM buyer) AS anon_1
+()
+SELECT buyer.id AS buyer_id, buyer.name AS buyer_name, buyer.email AS buyer_email 
+FROM buyer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (id, name, model) VALUES (?, ?, ?)
+('3', '', '')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (id, name, model) VALUES (?, ?, ?)
+('4', '', '')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (id, name, model) VALUES (?, ?, ?)
+('6', '', '')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (id, name, model) VALUES (?, ?, ?)
+('7', '', '')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (id, name, model) VALUES (?, ?, ?)
+('8', '', '')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (name, model) VALUES (?, ?)
+('', 'P32R MC')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (name, model) VALUES (?, ?)
+('', 'P32R MC')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (name, model) VALUES (?, ?)
+('', 'P32R MC')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (name, model) VALUES (?, ?)
+('', '<bound PYQT_SIGNAL activated of QComboBox object at 0x00000185B44409D8>')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (name, model) VALUES (?, ?)
+('', <bound PYQT_SIGNAL activated of QComboBox object at 0x00000225E3660B88>)
+ROLLBACK
+BEGIN (implicit)
+INSERT INTO manufacturer (name, model) VALUES (?, ?)
+('', <bound PYQT_SIGNAL activated of QComboBox object at 0x00000225E68BD168>)
+ROLLBACK
+BEGIN (implicit)
+INSERT INTO manufacturer (name, model) VALUES (?, ?)
+('', <bound PYQT_SIGNAL activated of QComboBox object at 0x00000225E68BD048>)
+ROLLBACK
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (name, model) VALUES (?, ?)
+('', 'P32R MC')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+DELETE FROM manufacturer WHERE manufacturer.id = ?
+('6',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM manufacturer WHERE manufacturer.id = ?
+('7',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM manufacturer WHERE manufacturer.id = ?
+('8',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM manufacturer WHERE manufacturer.id = ?
+('9',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM manufacturer WHERE manufacturer.id = ?
+('10',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM manufacturer WHERE manufacturer.id = ?
+('11',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM manufacturer WHERE manufacturer.id = ?
+('12',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM manufacturer WHERE manufacturer.id = ?
+('3',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM manufacturer WHERE manufacturer.id = ?
+('4',)
+COMMIT
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+INSERT INTO manufacturer (id, name, model) VALUES (?, ?, ?)
+('4', '', 'P32R')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer) AS anon_1
+()
+SELECT manufacturer.id AS manufacturer_id, manufacturer.name AS manufacturer_name, manufacturer.model AS manufacturer_model 
+FROM manufacturer
+()
+SELECT count(*) AS count_1 
+FROM (SELECT category.id AS category_id, category.name AS category_name, category.description AS category_description 
+FROM category) AS anon_1
+()
+SELECT category.id AS category_id, category.name AS category_name, category.description AS category_description 
+FROM category
+()
+SELECT count(*) AS count_1 
+FROM (SELECT item.id AS item_id, item.id_category AS item_id_category, item.id_manufacturer AS item_id_manufacturer, item.name AS item_name, item.description AS item_description, item.price AS item_price, item.count AS item_count 
+FROM item) AS anon_1
+()
+SELECT item.id AS item_id, item.id_category AS item_id_category, item.id_manufacturer AS item_id_manufacturer, item.name AS item_name, item.description AS item_description, item.price AS item_price, item.count AS item_count 
+FROM item
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number) AS anon_1
+()
+SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number) AS anon_1
+()
+SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles
+()
+SELECT count(*) AS count_1 
+FROM (SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number) AS anon_1
+()
+SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number
+()
+ROLLBACK
+BEGIN (implicit)
+ROLLBACK
+BEGIN (implicit)
+ROLLBACK
+BEGIN (implicit)
+ROLLBACK
+BEGIN (implicit)
+ROLLBACK
+BEGIN (implicit)
+INSERT INTO part_number (part_number, part_name, iln, cut_off_vin) VALUES (?, ?, ?, ?)
+('6', '8', '9', '0')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number) AS anon_1
+()
+SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number) AS anon_1
+()
+SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number
+()
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles
+()
+ROLLBACK
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number) AS anon_1
+()
+SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number
+()
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles
+()
+ROLLBACK
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, how_to_fix, ran, part_number_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-24', 'A', 'Галкин И.', 'Trigo', 'P32R', '', '', '', '', '')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles
+()
+SELECT count(*) AS count_1 
+FROM (SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number) AS anon_1
+()
+SELECT part_number.id AS part_number_id, part_number.part_number AS part_number_part_number, part_number.part_name AS part_number_part_name, part_number.iln AS part_number_iln, part_number.cut_off_vin AS part_number_cut_off_vin 
+FROM part_number
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-24', 'C', 'Хованский Е.', '1insp', 'P32R MC', '', '', '', '', '89', '', '', '')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-24', 'C', 'Хованский Е.', '1insp', 'P32R MC', '', '', '', '', '74889', '---------', '---------', '---------')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-25', 'C', 'Хованский Е.', '1insp', 'P32R MC', '', '', '', '', '82901HZ30A', '---------', '---------', '---------')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-25', 'C', 'Хованский Е.', '1insp', 'P32R MC', '', '', '', '', '82901HZ30A', '---------', '---------', '---------')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-25', 'C', 'Хованский Е.', '1insp', 'P32R MC', '', '', '', '', '82901HZ30A', '---------', '---------', '---------')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-25', 'C', 'Хованский Е.', '1insp', 'P32R MC', '', '', '', '', None, '---------', '---------', '---------')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-25', 'C', 'Хованский Е.', '1insp', 'P32R MC', '', '', '', '', None, 'AIR SPOILER ASSY-RR,LH', 'NCIC SHANGHAI', 'JIAXING\xa0MINSHENG\xa0AUTOMOTIVE\xa0PARTS.LTD.')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+DELETE FROM logfiles WHERE logfiles.id = ?
+('7',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM logfiles WHERE logfiles.id = ?
+('5',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM logfiles WHERE logfiles.id = ?
+('4',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM logfiles WHERE logfiles.id = ?
+('1',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM logfiles WHERE logfiles.id = ?
+('2',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM logfiles WHERE logfiles.id = ?
+('3',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM logfiles WHERE logfiles.id = ?
+('6',)
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (id, date, turn, author, area, model, vin, problem, reason, done_actions, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('25631', '2018-12-19', 'C', 'Хованский Е.', '1insp', 'P32R MC', '90711', 'Списать холдеры по строке 25625\n', 'Спмсать холдеры по строке 25625\n', 'Списать холдеры по строке 25625\n', 'Подтверждение на списание\n', '', None, '---------', '---------', '---------')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (id, date, turn, author, area, model, vin, problem, reason, done_actions, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('25632', '19.12.2018\n', 'C', 'Хованский Е.', '1insp', 'P32R MC', '90733', 'Включение на левом винглете\n', 'дефект поставщика, по NES - OK, меньше 1 мм\n', 'отремонтировали на онлайне\n', 'Проблема закрыта\n', '', None, '---------', '---------', '---------')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, reason, done_actions, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-25', 'C', 'Хованский Е.', '1insp', 'P32R MC', '', '', '', '', '', '', '960334CE0A', 'AIR SPOILER ASSY-RR,LH', 'NCIC SHANGHAI', 'JIAXING\xa0MINSHENG\xa0AUTOMOTIVE\xa0PARTS.LTD.')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+DELETE FROM logfiles WHERE logfiles.id = ?
+('25631',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM logfiles WHERE logfiles.id = ?
+('25632',)
+COMMIT
+BEGIN (implicit)
+DELETE FROM logfiles WHERE logfiles.id = ?
+('25633',)
+COMMIT
+BEGIN (implicit)
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, reason, done_actions, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-25', 'C', 'Хованский Е.', '1insp', 'P32R MC', '', '', '', '', '', '', '803201KK2A', 'HLDR ASSY-DOOR GLASS,RH', 'NMUK', 'NIFCO\xa0UK\xa0LIMITED')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+DELETE FROM logfiles WHERE logfiles.id = ?
+('1',)
+COMMIT
+BEGIN (implicit)
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, reason, done_actions, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-19', 'C', 'Хованский Е.', '1insp', 'P32R MC', '90711', 'Списать холдеры по строке 25625', 'Списать холдеры по строке 25625', 'Списать холдеры по строке 25625', 'Подтверждение на списание', '', '803201KK2A', 'HLDR ASSY-DOOR GLASS,RH', 'NMUK', 'NIFCO\xa0UK\xa0LIMITED')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, reason, done_actions, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-19', 'C', 'Хованский Е.', '1insp', 'P32R MC', '90733', 'Включение на левом винглете\n', 'дефект поставщика, по NES - OK, меньше 1 мм\n', 'отремонтировали на онлайне\n', 'Проблема закрыта\n', '', '960334CE0A', 'AIR SPOILER ASSY-RR,LH', 'NCIC SHANGHAI', 'JIAXING\xa0MINSHENG\xa0AUTOMOTIVE\xa0PARTS.LTD.')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, reason, done_actions, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-25', 'C', 'Рудаков А.', '1insp', 'P32R MC', '90732', 'Торчит паралон на RR LH обшивке двери\n', 'мех повреждение при установке', 'ПРЕДСТАВИТЕЛЬ ПРОВЕРЯЕТ СТОКИ\r\nуплотнитель оторван при установке, проверить сток и лайнсайд не успел. Необходимо проинформировать представителя поставщика.', 'Расследование', '', '82901HZ30A', 'FIN ASSY-RR DOOR LH', 'LOCAL', 'GRUPO\xa0ANTOLIN\xa0SAN-PETERBURGO')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, reason, done_actions, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-25', 'C', 'Галкин И.', 'QRR', 'P32S', 'parts', 'строка занесена для холдирования деталей', 'строка занесена для холдирования деталей', 'строка занесена для холдирования деталей', 'Проблема закрыта', 'D4309741', '908904EM1A', 'EMBLEM-BACK DOOR', 'NCIC', 'GUANGZHOU\tSWELL MARUI(GUANGZHOU) AUTOMOBILE PARTS')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, reason, done_actions, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-22', 'A', 'Дюбенок И.', 'T2', 'P32R MC', 'parts', 'Скол (4*2мм) на кромке лобового стекла со стороны пассажира\n', 'Дефект при резке стекла. Дефект поставщика\n', 'Стекло заменили на Т2. Дефект продемонстрирован Горбачеву И. Скол со скругленными краями и возможно не привел бы к трещине, но перестраховались и заменили стекло, без остановки линии.\n', 'Local расследование\n', 'RRLD2K18\n', '72700HZ40A', 'GLASS ASSY-WS', 'LOCAL', 'AGC\xa0BOR\xa0GLASSWORKS')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+UPDATE logfiles SET id=logfiles.id, date=logfiles.date, turn=logfiles.turn, author=logfiles.author, area=logfiles.area, model=logfiles.model, vin=logfiles.vin, problem=logfiles.problem, reason=logfiles.reason, done_actions=logfiles.done_actions, how_to_fix=logfiles.how_to_fix, ran=logfiles.ran, part_number_id=logfiles.part_number_id, part_name=logfiles.part_name, iln=logfiles.iln, creator=logfiles.creator WHERE logfiles.id = ?
+('2',)
+COMMIT
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+UPDATE logfiles SET id=logfiles.id, date=logfiles.date, turn=logfiles.turn, author=logfiles.author, area=logfiles.area, model=logfiles.model, vin=logfiles.vin, problem=logfiles.problem, reason=logfiles.reason, done_actions=logfiles.done_actions, how_to_fix=logfiles.how_to_fix, ran=logfiles.ran, part_number_id=logfiles.part_number_id, part_name=logfiles.part_name, iln=logfiles.iln, creator=logfiles.creator WHERE logfiles.id = ?
+('2',)
+COMMIT
+BEGIN (implicit)
+UPDATE logfiles SET id=logfiles.id, date=logfiles.date, turn=logfiles.turn, author=logfiles.author, area=logfiles.area, model=logfiles.model, vin=logfiles.vin, problem=logfiles.problem, reason=logfiles.reason, done_actions=logfiles.done_actions, how_to_fix=logfiles.how_to_fix, ran=logfiles.ran, part_number_id=logfiles.part_number_id, part_name=logfiles.part_name, iln=logfiles.iln, creator=logfiles.creator WHERE logfiles.id = ?
+('2',)
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+UPDATE logfiles SET id=logfiles.id, date=logfiles.date, turn=logfiles.turn, author=logfiles.author, area=logfiles.area, model=logfiles.model, vin=logfiles.vin, problem=logfiles.problem, reason=logfiles.reason, done_actions=logfiles.done_actions, how_to_fix=logfiles.how_to_fix, ran=logfiles.ran, part_number_id=logfiles.part_number_id, part_name=logfiles.part_name, iln=logfiles.iln, creator=logfiles.creator WHERE logfiles.id = ?
+('2',)
+COMMIT
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+UPDATE logfiles SET id=logfiles.id, date=logfiles.date, turn=logfiles.turn, author=logfiles.author, area=logfiles.area, model=logfiles.model, vin=logfiles.vin, problem=logfiles.problem, reason=logfiles.reason, done_actions=logfiles.done_actions, how_to_fix=logfiles.how_to_fix, ran=logfiles.ran, part_number_id=logfiles.part_number_id, part_name=logfiles.part_name, iln=logfiles.iln, creator=logfiles.creator WHERE logfiles.id = ?
+('3',)
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+UPDATE logfiles SET id=logfiles.id, date=logfiles.date, turn=logfiles.turn, author=logfiles.author, area=logfiles.area, model=logfiles.model, vin=logfiles.vin, problem=logfiles.problem, reason=logfiles.reason, done_actions=logfiles.done_actions, how_to_fix=logfiles.how_to_fix, ran=logfiles.ran, part_number_id=logfiles.part_number_id, part_name=logfiles.part_name, iln=logfiles.iln, creator=logfiles.creator WHERE logfiles.id = ?
+('3',)
+COMMIT
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+UPDATE logfiles SET id=logfiles.id, date=logfiles.date, turn=logfiles.turn, author=logfiles.author, area=logfiles.area, model=logfiles.model, vin=logfiles.vin, problem=logfiles.problem, reason=logfiles.reason, done_actions=logfiles.done_actions, how_to_fix=logfiles.how_to_fix, ran=logfiles.ran, part_number_id=logfiles.part_number_id, part_name=logfiles.part_name, iln=logfiles.iln, creator=logfiles.creator WHERE logfiles.id = ?
+('3',)
+COMMIT
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+UPDATE logfiles SET id=logfiles.id, date=logfiles.date, turn=logfiles.turn, author=logfiles.author, area=logfiles.area, model=logfiles.model, vin=logfiles.vin, problem=logfiles.problem, reason=logfiles.reason, done_actions=logfiles.done_actions, how_to_fix=logfiles.how_to_fix, ran=logfiles.ran, part_number_id=logfiles.part_number_id, part_name=logfiles.part_name, iln=logfiles.iln, creator=logfiles.creator WHERE logfiles.id = ?
+('3',)
+COMMIT
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles 
+WHERE logfiles.id = ?
+('2',)
+UPDATE logfiles SET  WHERE logfiles.id = ?
+('2',)
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+UPDATE logfiles SET  WHERE logfiles.id = ?
+('2',)
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles 
+WHERE logfiles.id = ?
+('2',)
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles 
+WHERE logfiles.id = ?
+('2',)
+UPDATE logfiles SET  WHERE logfiles.id = ?
+('2',)
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, reason, done_actions, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-19', 'A', 'Мирошниченко А.', 'BS L1SA', 'P32R', 'parts', 'Повреждение на хроме форточки. Обнаружено сортировочной компанией.\n', 'Деталь под списание.\n', 'Деталь под списание.\n', 'Подтверждение на списание\n', '', '833124EA0A', 'GLASS-SIDE WDW,RH', 'NMUK', 'PILKINGTON\xa0AUTOMOTIVE-UK\xa0LTD')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+DELETE FROM logfiles WHERE logfiles.id = ?
+('5',)
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+INSERT INTO logfiles (date, turn, author, area, model, vin, problem, reason, done_actions, how_to_fix, ran, part_number_id, part_name, iln, creator) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+('2018-12-25', 'C', 'Дюбенок И.', 'BS VES', 'P32R', '', '', '', '', '', '', None, '---------', '---------', '---------')
+COMMIT
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles) AS anon_1
+()
+SELECT logfiles.id AS logfiles_id, logfiles.date AS logfiles_date, logfiles.turn AS logfiles_turn, logfiles.author AS logfiles_author, logfiles.area AS logfiles_area, logfiles.model AS logfiles_model, logfiles.vin AS logfiles_vin, logfiles.problem AS logfiles_problem, logfiles.reason AS logfiles_reason, logfiles.done_actions AS logfiles_done_actions, logfiles.how_to_fix AS logfiles_how_to_fix, logfiles.ran AS logfiles_ran, logfiles.part_number_id AS logfiles_part_number_id, logfiles.part_name AS logfiles_part_name, logfiles.iln AS logfiles_iln, logfiles.creator AS logfiles_creator 
+FROM logfiles
+()
+DELETE FROM logfiles WHERE logfiles.id = ?
+('7',)
+COMMIT
